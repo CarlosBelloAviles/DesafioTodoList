@@ -1,0 +1,56 @@
+body{
+display: flex;
+justify-content: center;
+
+
+}
+
+.container{
+    width: 800px;
+    border: 2px solid black;
+   background-color: #b3b0b0;
+  flex-wrap: wrap;
+}
+
+h1{
+ font-size: 23px;
+}
+
+p{
+    font-size: 18px;
+}
+
+input{
+    width: 700px;
+    height: 30px;
+    
+}
+
+button{
+ width: 70px;
+ height: 30px;
+ background-color: green;
+ color: white;
+}
+
+.listado{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.eliminar{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.checked{
+    width: 20px;
+    height: 20px;
+}
+
+.centrado{
+    text-align: center;
+}
